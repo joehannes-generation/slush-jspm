@@ -101,13 +101,14 @@ gulp.task('default', function (done) {
       message: 'What is the github username?',
       default: defaults.userName
     }, {
-      name   : 'opensource',
-      message: 'Do you want to include the MIT License as your license?'
+      name   : 'license',
+      message: 'Do you want to include the MIT License as your license?',
+      type   : 'confirm',
+      default: true
     }],
     function (answers) {
       var dirMap;
 
-      if (!answers.moveon) return done();
       answers.file = { relative: '<%= file.relative %>' };
       answers = handleDefaults(answers);
       answers.year = (new Date()).getFullYear();
