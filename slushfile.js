@@ -101,13 +101,12 @@ gulp.task('default', function (done) {
       message: 'What is the github username?',
       default: defaults.userName
     }, {
-      type   : 'confirm',
-      name   : 'moveon',
-      message: 'Continue?'
+      name   : 'opensource',
+      message: 'Do you want to include the MIT License as your license?'
     }],
     function (answers) {
       var dirMap;
-      
+
       if (!answers.moveon) return done();
       answers.file = { relative: '<%= file.relative %>' };
       answers = handleDefaults(answers);
@@ -141,7 +140,7 @@ gulp.task('default', function (done) {
         .on('finish', function () {
           var a = answers,
               dirs = [];
-              
+
           if (a.sourceCustomization) {
             a.sourceBase !== 'src/' && dirs.push('./src');
             a.sourceScripts !== 'scripts/' && dirs.push('./' + a.sourceBase + 'scripts');

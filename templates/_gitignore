@@ -1,0 +1,10 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+node_modules/
+app/dist/app.min.js
+app/src/vendor/
+app/tests/coverage/
+.bower-*/
+.idea/
