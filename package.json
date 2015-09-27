@@ -1,18 +1,18 @@
 {
-  "name": "slush-jspm",
-  "version": "1.0.0",
-  "description": "Slush generator jspm makes ES6 modular development easy!",
+  "name": "slush-ng-harmony-jspm",
+  "version": "0.1.0",
+  "description": "Slush generator for ng-harmony apps!",
   "license": "MIT",
   "author": {
-    "name": "Nathaniel Inman",
-    "email": "nate@theoestudio.com"
+    "name": "Johannes Neugschwentner",
+    "email": "johannes.neugschwentner@gmail.com"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/NathanielInman/slush-jspm.git"
+    "url": "git://github.com/joehannes-generation/slush-ng-harmony-jspm.git"
   },
   "main": "slushfile.js",
   "scripts": {},
@@ -55,8 +55,8 @@
     "semver": "^4.3.3"
   },
   "bugs": {
-    "url": "https://github.com/NathanielInman/slush-jspm/issues"
+    "url": "https://github.com/joehannes-generation/slush-ng-harmony-jspm/issues"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/NathanielInman/slush-jspm"
+  "homepage": "https://github.com/joehannes-generation/slush-ng-harmony-jspm"
 }
