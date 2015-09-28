@@ -15,7 +15,7 @@
     "url": "https://github.com/<%= userName %>/<%= name %>/issues"
   },
   "scripts": {
-    "test": "echo \"Error: Pleae run 'gulp karma', or 'gulp protractor'\" && exit 1",
+    "test": "echo \"Error: Pleae run 'gulp karma' or 'gulp protractor' or 'gulp karma-unit'\" && exit 1",
     "unit": "gulp karma-unit",
     "karma": "gulp karma",
     "protractor": "gulp protractor",
